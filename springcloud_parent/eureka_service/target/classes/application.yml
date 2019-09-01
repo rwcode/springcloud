@@ -1,0 +1,12 @@
+server:
+  port: 7071
+eureka:
+  instance:
+    hostname: eureka-7071.com
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://eureka-7072.com:7072/eureka/  #集群
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #单机配置

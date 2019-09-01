@@ -1,0 +1,9 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: USER-CONSUMER
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-7071.com:7071/eureka/,http://eureka-7072.com:7072/eureka/ #告诉服务提供者注册到哪里

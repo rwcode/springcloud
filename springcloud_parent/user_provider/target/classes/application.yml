@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: USER-PROVIDER
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-7071.com:7071/eureka/,http://eureka-7072.com:7072/eureka/
+  instance:
+    prefer-ip-address: true

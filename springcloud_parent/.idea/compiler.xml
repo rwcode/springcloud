@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka_service" />
+        <module name="eureka_service_7072" />
+        <module name="user_consumer" />
+        <module name="user_consumer_9092" />
+        <module name="user_consumer_9093" />
+        <module name="user_consumer_9094" />
+        <module name="user_interface" />
+        <module name="user_provider" />
+        <module name="user_provider_8082" />
+        <module name="user_provider_8083_hystrix" />
+        <module name="user_provider_8083ribbon" />
+        <module name="zuul_gatewar_1234" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka_service" target="1.5" />
+      <module name="eureka_service_7072" target="1.5" />
+      <module name="springcloud_parent" target="1.5" />
+      <module name="user_consumer" target="1.5" />
+      <module name="user_consumer_9092" target="1.5" />
+      <module name="user_consumer_9093" target="1.5" />
+      <module name="user_consumer_9094" target="1.5" />
+      <module name="user_interface" target="1.5" />
+      <module name="user_provider" target="1.5" />
+      <module name="user_provider_8082" target="1.5" />
+      <module name="user_provider_8083_hystrix" target="1.5" />
+      <module name="user_provider_8083ribbon" target="1.5" />
+      <module name="zuul_gatewar_1234" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
